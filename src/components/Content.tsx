@@ -15,7 +15,7 @@ function Content({ isdark }: ContentProps) {
   const Tools = ["Figma", "Notion", "Postman"];
   return (
     <div>
-      <main className=" grid  grid-rows-2-[auto,1fr] h-screen m-0 ">
+      <main className=" grid  grid-rows-4-[auto,1fr] h-screen m-0 ">
         <article
           className={` h-screen  flex flex-row justify-center gap-[60px] items-center pb-40  g-y-0 `}
           style={{ background: isdark ? "#040303" : "#F9F9F9" }}
@@ -79,7 +79,12 @@ function Content({ isdark }: ContentProps) {
             </div>
           </section>
         </article>
-
+        <div
+          className=" flex flex-row justify-center pt-4"
+          style={{ backgroundColor: !isdark ? "#040303" : "#F9F9F9" }}
+        >
+          <h1 className=" text-4xl font-semibold">TechStacks</h1>
+        </div>
         <section
           className={`h-screen `}
           style={{ backgroundColor: !isdark ? "#040303" : "#F9F9F9" }}

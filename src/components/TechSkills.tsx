@@ -18,7 +18,7 @@ function TechSkills({ isdark }: TechSkillsProps) {
   const text = !isdark ? "#040303" : "#F9F9F9";
 
   return (
-    <div className="grid grid-cols-2  gap-x-4 gap-y-4 grid-auto-rows-auto h-screen p-10 md:grid-cols-3 lg:grid-cols-4 ">
+    <div className="grid grid-cols-1 gap-x-4 gap-y-4 grid-auto-rows-auto h-screen p-10 md:grid-cols-2 lg:grid-cols-3 ">
       {ProfileInfoData.map((data, i) => {
         return (
           <Card
@@ -38,7 +38,7 @@ function TechSkills({ isdark }: TechSkillsProps) {
             <CardContent>
               <img
                 src={data.img}
-                className="w-[80px] h-[80px] object-contain md:w-[100px] md:h-[100px] lg:w-[150px] lg:h-[150px]"
+                className="w-[80px] h-[80px] object-contain md:w-[80px] md:h-[80px]"
               />
             </CardContent>
           </Card>

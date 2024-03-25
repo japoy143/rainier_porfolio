@@ -15,7 +15,23 @@ export const ProfileInfoData: ProfileInfo[] = [
     img: "/images/javascript.png",
     description: "",
   },
+
   { title: "Dart", img: "/images/dart.png", description: "" },
+  {
+    title: "MongoDB",
+    img: "/images/mongodb.png",
+    description: "",
+  },
+  {
+    title: "SQLite",
+    img: "/images/sqlite.png",
+    description: "",
+  },
+  {
+    title: "Tailwind CSS",
+    img: "/images/tailwind.png",
+    description: "",
+  },
   { title: "Postman", img: "/images/postman.png", description: "" },
   { title: "Figma", img: "/images/figma.png", description: "" },
   { title: "Canva", img: "/images/canva.png", description: "" },
